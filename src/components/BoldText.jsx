@@ -1,7 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types";
 
-const BoldText = ({ title, className = "bold-text" }) => {
+const BoldText = ({ title, className = "bold-text" }
+) => {
     return <h1 className={className}>{title}</h1>;
 };
 

@@ -12,6 +12,7 @@ html {
   font-style: normal;
   font-weight: 100;
   line-height: normal;
+  z-index: 50;
 }
 
 .book-detail {
@@ -24,6 +25,7 @@ html {
   font-size: 2rem;
   position: relative;
   gap: 33px;
+  z-index: 50;
 }
 
 .book-detail-review {
@@ -37,4 +39,17 @@ html {
   height: 530px;
   flex-shrink: 0;
   aspect-ratio: 460.22 / 671.00;
+}
+
+/* 리뷰 스크롤 페이지 */
+.review-header {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.review-book-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
